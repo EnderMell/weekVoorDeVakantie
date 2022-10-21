@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Webshop</title>
+</head>
+
+<body>
+    <div id="website">
+        <header>
+            <div id="land">
+                <label> Uw taal </label>
+                <input id="country" type="text" name="country" size="40" list="countries" />
+                <datalist id="countries">
+                    <option value="Nederland"></option>
+                    <option value="Duitsland"></option>
+                    <option value="Frankrijk"></option>
+                    <option value="Oosterijk"></option>
+                    <option value="Engeland"></option>
+                    <option value="Spanje"></option>
+            </div>
+            <ul id="top">
+                <li><a href="#">Inloggen </a></li>
+                <li><a href="#">Mijn account </a></li>
+            </ul>
+        </header>
+        <div id="menu">
+            <img id="logo" src="Picture/logo.png">
+
+            <div id="buttons">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Kitchen</a></li>
+                    <li><a href="#">Bedroom</a></li>
+                    <li><a href="#">Livingroom</a></li>
+                </ul>
+
+            </div>
+            <div id="buttons2">
+                <ul>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Vergelijk</a></li>
+                    <li><a href="#">Winkelwagen</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="blokken">
+        <div class="cups">
+            <h3> Hot </h3>
+            <hr>
+            <ul>
+                <li>Cups</li>
+                <li>Blankets</li>
+                <li>Plants</li>
+            </ul>
+        </div>
+        <div class="verfijnen">
+            <h3> Recomended </h3>
+            <hr>
+            <ul>
+                <li>Musroom Cup</li>
+                <li>Leaf Blanked</li>
+                <li>Pig Plusie</li>
+            </ul>
+        </div>
+        <div class="prijs">
+            <h3> Prijs </h3>
+            <hr> <br>
+            <label for="slider"> 0 </labeL>
+            <input type="range" id="slider" min="0" max="100" step="1" value="100">
+            <label for="slider"> 100 </labeL>
+        </div>
+        <div class="recent">
+            <h3>Recent Bekeken</h3>
+            <hr>
+            <img src="Picture/OIP.jpg">
+            <p id="name"><a href="#">Musroom and<br> Plant mug</a></p>
+            <p id="price"> 4,75,-</p>
+        </div>
+        <div class="nieuwsbrief">
+            <h3> Nieuwsbrief </h3>
+            <hr>
+            <input id="email" type="email">
+            <br>
+            <input type="submit" id="submit" value="Inschrijven">
+        </div>
+
+    </div>
+    <div class="items">
+        <h2>Aanbevolen voor jouw</h2>
+        <hr><br>
+        <div class="itemRow">
+            <div class="row">
+                <img class="itempic" src="Picture/posters.png">
+                <h4 class="information"> Cottagecore<br> Posters </h4>
+                <h5 class="information"> 2,-</h5>
+            </div>
+            <div class="row">
+                <img class="itempic" src="Picture/Leaf.jpg">
+                <h4 class="information"> Leaf Blanket </h4>
+                <h5 class=information> 10,-</h5>
+            </div>
+            <div class="row">
+                <img class="itempic" src="Picture/Plusies.png">
+                <h4 class="information"> Penguin Plusie </h4>
+                <h5 class=information> 7,-</h5>
+            </div>
+
+        </div>
+        <div class="itemRow">
+            <div class="row">
+                <img class="itempic" src="Picture/Frogs.jpg">
+                <h4 class="information"> Frog Blanket </h4>
+                <h5 class="information"> 6,-</h5>
+            </div>
+            <div class="row">
+                <img class="itempic" src="Picture/MusroomMug.png">
+                <h4 class="information"> Mushroom Mug </h4>
+                <h5 class=information> 5,-</h5>
+            </div>
+            <div class="row">
+                <img class="itempic" src="Picture/neon.jpg">
+                <h4 class="information"> Neon Light </h4>
+                <h5 class=information> 11,-</h5>
+            </div>
+        </div>
+        <div class="itemRow">
+            <div class="row">
+                <img class="itempic" src="Picture/Axolotol.jpg">
+                <h4 class="information"> Squismallow Axolotl </h4>
+                <h5 class="information"> 6,-</h5>
+            </div>
+            <div class="row">
+                <img class="itempic" src="Picture/woodenKitchen.jpg">
+                <h4 class="information"> Wooden Kitchen <br> Utensels </h4>
+                <h5 class=information> 3,-</h5>
+            </div>
+            <div class="row">
+                <img class="itempic" src="Picture/mpillow.jpg">
+                <h4 class="information">Mursroom print<br>pillow </h4>
+                <h5 class=information> 7,-</h5>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="betalen">
+            <h4>Betaal Veilig</h4><br>
+            <h5> Wij zorgen dat u veilig kan betalen<br>
+                met onze betrouwbaren bronnen.</h5>
+            <div class="banken">
+                <img class="rabo" src="Picture/rabo.png">
+                <img class="paypal" src="Picture/paypal.jpg">
+            </div>
+        </div>
+        <div class="klanten">
+            <h4> KlantenService </h4><br>
+            <ul>
+                <li>Wachtwoord vergeten</li>
+                <li>Veilige Betaling</li>
+                <li>Levering</li>
+                <li>Anuleren,Retouneren</li>
+
+            </ul>
+        </div>
+        <div class="overOns">
+            <h4> Over Ons</h4><br>
+            <ul>
+                <li>Contact Info</li>
+                <li>Algemene Voorwaarden</li>
+                <li>Privacy Beleid</li>
+                <li>Over Ons</li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="aftieteling">
+        Gemaakt door:Michelle Tuinbeek
+    </div>
+<!-- Dit was een absolute hell whahahaha-->
+</body>
+
+</html>

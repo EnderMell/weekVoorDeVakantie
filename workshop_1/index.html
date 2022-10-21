@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <from action="doelbestand.php" method="post">
+        Voornaam:<input type="text" name="vnaam" placeholder="Voornaam"/><br>
+        Achternaam:<input type="text" name="anaam" placeholder="Achternaam"/><br>
+        Geboorte datum:<input type="date"><br>
+        <input type="datetime-local"><br>
+        <input type="time"><br>
+        <input type="week"><br>
+        <input type="month"><br>   
+                                
+        <input id="country" type="text" name="country" size="40" list="countries"/>
+        <datalist id="countries">
+            <option value="Australia"></option>
+            <option value="Canada"></option>
+            <option value="Germany"></option>
+            <option value="France"></option>
+            <option value="United Kingdom"></option>
+            <option value="United States"></option>
+        </datalist><br>
+        <input type="number"><br>
+        <input type="number" min="5" max="100" step="5" value="10" ><br>
+        <input type="email" required><br>
+        <input type="file"><br>
+        <input type="color"><br>
+        <input type="range" min="1" max="10"><br>
+        <input type="submit"/>  
+    </from>
+    </div>
+    
+</body>
+</html>

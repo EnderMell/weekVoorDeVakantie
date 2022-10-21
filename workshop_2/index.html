@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool blue</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div id="circle">
+            <p>Cool<br> Blue</p>
+        </div>
+    </div>
+    <div>
+        <h2 id="gegevens">JE GEGEVENS.</h2><br>
+        <p id="facatuur">Wat moet er op de facatuur staan?</p><br>
+    </div>
+    <div>
+        <form>
+            <div>
+                <label class="yes">Type Bestelling:</label>
+                <input type="radio" id="particulier" name="type_bestelling" value="particulier">
+                <label for="particulier">Particulier</label>
+                <input type="radio" id="Zakelijk" name="type_bestelling" value="Zakelijk">
+                <label for="Zakelijk">Zakelijk</label>
+            </div>
+            <br>
+            <div id="aanhef">
+                <label class="yes">Aanhef:</label>
+                <input type="radio" id="Mr." name="aanhef" value="Mr.">
+                <label for="Mr.">Mr.</label>
+                <input type="radio" id="Mvr." name="aanhef" value="Mvr.">
+                <label for="Mvr.">Mvr.</label>
+            </div>
+            <br>
+            <div id="name">
+                <label class="yes">Naam:</label>
+                <input type="text" id="fname" name="fname" placeholder="Voornaam">
+                <input type="text" id="tussenv" name="tussenv" placeholder="Tussenv.">
+                <input type="text" id="lname" name="lname" placeholder="Achternaam">
+            </div>
+            <br>
+            <div id="postcode">
+                <label class="yes"> Postcode:</label>
+                <input type="text" id="pcode" name="pcode" placeholder="1234AB">
+
+            </div>
+            <br>
+            <div id="huisnummer">
+                <label class="yes"> Huisnummer:</label>
+                <input type="text" id="hnummer" name="hnummer" placeholder="Nr.">
+                <input type="text" id="hnummer" name="toevoeging" placeholder="Toev.">
+            </div>
+            <br>
+            <div class="yes">
+            <p> Land:</p><p>Nederland > In België laten bezorgen</p>
+            </div>
+            <br>
+            <div id="adres">
+                <label class="yes">Afleveradres:</label>
+                <input type="radio" id="bovenstaand" name="adres" value="bovenstaand">
+                <label for="bovenstaand">Afleveren aan bovenstaand adres</label>
+                <input type="radio" id="ander" name="adres" value="ander">
+                <label for="ander">Afleveren aam ander adres</label>
+            </div>
+            <br>
+            <div id="email">
+                <label class="yes">Email: </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <br>
+            <div id="telefoon">
+                <label class="yes">Telefoonnummer:</label>
+                <input type="text"placeholder="1234567890" >
+            </div>
+            <br>
+            <div id="date">
+                <label class="yes"> Geboortedatum:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <br>
+            <div id="facatuure">
+                <label class="yes">Verwijzende Facatuur:</label>
+                <input type="radio" id="Email" name="facatuur" value="perEmail">
+                <label for="Email">Facatuur per Email</label>
+                <input type="radio" id="geprint" name="facatuur" value="geprint">
+                <label for="geprint">Facatuur geprint bij bestelling</label>
+            </div>
+            <br>
+            <div>
+                <label class="yes">Nieuwsbrief</label>
+                <input type="checkbox" id="nieuwsbrief">
+                <label for="nieuwsbrief">Ja, ik wil de coolblue-nieuwsbrief met 5,- cadobon voor<br> mijn volgende bestelling</label>
+            </div>
+                <br>
+            <div>
+                <label class="yes">Kleur verpakking:</label>
+                <input type="color" id="verpakking">
+            </div>
+        </form>
+    
+    
+</body>
+</html>

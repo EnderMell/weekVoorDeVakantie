@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    
+}
+
+#header{
+    width:1920px;
+    height:100px;
+    background-color:#0090E3;
+}
+
+#circle{
+    margin-left:20px;
+    background-color: #FF6600;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+
+}
+#circle p{
+    padding-top:15px;
+    color:white;
+    font-family:'Arial Narrow Bold';
+    text-align: center;
+    font-size: 30px;
+}
+#gegevens{
+    font-family: Arial,Helvetica,verdana,sans-serif;
+    font-size: 25px;
+    color: #285DAB;
+}
+
+.yes{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    
+}
+
+
+#verpakking{
+    width:200px;
+}
