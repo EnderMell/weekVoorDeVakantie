@@ -273,3 +273,13 @@ header{
     background-color: #959ed8;
     color:white;
 }
+.koopmandje{
+    float:left;
+    margin:5spx;
+    padding:15px;
+    height:20px;
+    background-color:#c4f0e8;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
