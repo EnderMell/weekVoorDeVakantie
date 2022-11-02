@@ -284,3 +284,10 @@ header{
     cursor: pointer;
     
 }
+.row a{
+    text-decoration: none;
+    color:black;
+}
+.row a:active{
+    color:#959ed8;
+}

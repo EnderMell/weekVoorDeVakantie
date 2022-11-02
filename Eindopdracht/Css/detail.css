@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:#9bc99e;
+    /* #9bc99e*/
+}
+h3{
+    text-align: center;
+}
+hr{
+border:1px solid black;
+color:black;
+background-color: black;
+}
+#website{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+#top li{
+    list-style: none;
+    display:inline-block;
+    float: right;
+    padding: 10px;
+}
+header{
+    height: 50px;
+    width:100%;
+    background-color: #f2ebd7;
+}
+#land{
+    padding:10px;
+    float:left;
+}
+#country{
+    margin-left:10px;
+    width:100px;
+}
+#menu{
+    background-color: #f2ebd7;
+    height:120px;
+    border: 3px solid #ffc1b1;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#logo{
+    margin:10px;
+    border:4px #e0eaf3 solid;
+    height:100px;
+    border-radius:10%;
+    float: left;
+}
+#buttons li a{
+    color:black;
+    text-decoration: none;
+}
+#buttons li a:active{
+        color:#9bc99e;
+        text-decoration: none;}
+#buttons li{
+    width:100px;
+    height:50px;
+    font-size:20px;
+    border-radius: 15%;
+    background-color:#c4f0e8;
+    list-style-type: none;
+    align-items: center;
+    display:inline-flex;
+    
+}
+#buttons2 li a{
+    color:black;
+    text-decoration: none;
+}
+#buttons2 li a:active{
+        color:#9bc99e;
+        text-decoration: none;}
+#buttons2 li{
+    width:100px;
+    height:30px;
+    background-color:#c4f0e8;
+    text-align: right;
+    list-style-type: none;
+    align-items: center;
+    display:inline-flex;
+}

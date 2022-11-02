@@ -276,5 +276,11 @@ header{
     margin-top:20px;
     margin-left:350px;
     cursor: pointer;
-    
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:active{
+    color:#959ed8;
 }
